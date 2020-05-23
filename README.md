@@ -1,7 +1,7 @@
 # BHlibMobileGestalt
 library for developers to get MobileGestalt values
 ##
-# this library contains all MobileGestalt keys:
+# this library contained MobileGestalt keys:
 ```objc
 @interface BHlibMobileGestalt: NSObject
 - (id)Get_LocationRemindersCapability;
