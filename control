@@ -1,0 +1,9 @@
+Package: com.bandarhl.libMobileGestalt
+Name: BHlibMobileGestalt
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: library for developers to get MobileGestalt values
+Maintainer: BandarHelal
+Author: BandarHelal
+Section: System
