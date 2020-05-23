@@ -698,7 +698,7 @@ library for developers to get MobileGestalt values
 #
 
 # how to use:
-- it's simple just in the class and select which value you want, for example:
+- it's simple just initialize the class and select which value you want, for example:
 ```objc
 BHlibMobileGestalt *MobileGestalt = [[objc_getClass("BHlibMobileGestalt") alloc] init];
 NSLog(@"UDID: %@", [MobileGestalt Get_UniqueDeviceID]);
