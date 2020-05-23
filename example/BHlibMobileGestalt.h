@@ -1,8 +1,5 @@
-# BHlibMobileGestalt
-library for developers to get MobileGestalt values
-##
-# this library contains all MobileGestalt keys:
-```objc
+#import <objc/runtime.h>
+
 @interface BHlibMobileGestalt: NSObject
 - (id)Get_LocationRemindersCapability;
 - (id)Get_device_name;
@@ -694,15 +691,3 @@ library for developers to get MobileGestalt values
 - (id)Get_IceFallID;
 - (id)Get_DeviceSupportsCinnamon;
 @end
-```
-#
-
-# how to use:
-- it's simple just in the class and select which value you want, for example:
-```objc
-BHlibMobileGestalt *MobileGestalt = [[objc_getClass("BHlibMobileGestalt") alloc] init];
-NSLog(@"UDID: %@", [MobileGestalt Get_UniqueDeviceID]);
-```
-#
-
-## [if you're interesting in libMobileGestalt read this blog](https://blog.timac.org/2018/1126-deobfuscated-libmobilegestalt-keys-ios-12/) 
