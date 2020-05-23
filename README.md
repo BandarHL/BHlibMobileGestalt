@@ -1,5 +1,5 @@
 # BHlibMobileGestalt
-a developer library to get MobileGestalt values
+library for developers to get MobileGestalt values
 ##
 # this library contains all MobileGestalt keys:
 ```objc
@@ -697,8 +697,8 @@ a developer library to get MobileGestalt values
 ```
 #
 
-# how to use
-- its sumple just init the class and select witch value you want, for exmaple:
+# how to use:
+- its simple just init the class and select witch value you want, for example:
 ```objc
 BHlibMobileGestalt *MobileGestalt = [[BHlibMobileGestalt alloc] init];
 NSLog(@"UDID: %@", [MobileGestalt Get_UniqueDeviceID]);
